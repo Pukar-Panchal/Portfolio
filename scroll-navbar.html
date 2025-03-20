@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scroll-navbar.css" />
+
+    <title>Navigationbar-on-scroll</title>
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="loader">
+      <div data-glitch="Loading..." class="glitch">Loading...</div>
+    </div>
+    <header id="header">
+      <nav id="navbar">
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="./About/about.html" class="about-link">ABOUT</a>
+            </li>
+            <li>
+              <a href="#work" class="work-link">WORK</a>
+            </li>
+            <li>
+              <a href="./About/SERVICES/services.html" class="services-link">SERVICES</a>
+            </li>
+            <li>
+              <a href="./About/CONTACT/contact.html" class="contact-link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <!-- night mode -->
+        <!-- From Uiverse.io by Madflows -->
+        <div class="toggle-switch">
+          <label class="switch-label">
+            <input type="checkbox" class="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </nav>
+      <img
+        class="live-image"
+        src="https://images6.alphacoders.com/137/thumb-1920-1371030.png"
+      />
+      <!-- Banner -->
+      <div class="banner-container">
+        <div class="banner">
+          <div class="banner-h1-background">
+            <h1>Silver Surfer</h1>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+            architecto dolorem ad itaque, inventore mollitia quo animi alias
+            eveniet eligendi quaerat ipsa. Inventore harum, iusto debitis
+            assumenda id mollitia praesentium.
+          </p>
+        </div>
+      </div>
+
+      <section id="About" class="section">
+        <div class="title">
+          <h2>About <span>Art</span></h2>
+        </div>
+        <div class="img-grid-about-container">
+          <div class="img-grid-1"></div>
+          <div class="img-grid-2"></div>
+          <div class="img-grid-3"></div>
+        </div>
+      </section>
+      <section id="work" class="work-section">
+        <div class="work-title">
+          <h2>SELECTED <span>WORK</span></h2>
+        </div>
+        <div class="img-grid-work-conatiner">
+          <div class="img-grid-work-1"></div>
+          <div class="img-grid-work-2"></div>
+          <div class="img-grid-work-3"></div>
+        </div>
+      </section>
+      <section id="what-i-do" class="what-i-do-section">
+        <div class="what-i-do-title">
+          <h2>WHAT I <span>DO</span></h2>
+        </div>
+        <div class="what-i-do-provides">
+          <p>
+            I provide high quality web design and web development for web<br />
+            sites and online expericences.What does high quality means you<br />
+            ask? it means 3 things
+          </p>
+          <div class="what-i-do-provides-about">
+            <span>1. Technical :- </span>
+            <p>
+              Clean markup,performant,fast to load,built<br />
+              with best practices and accessibility as its heart
+            </p>
+
+            <span>2. Beautiful :- </span>
+            <p>
+              With any white space no one will hear you<br />
+              scream.I respect the design and do it justice.
+            </p>
+
+            <span>3. Easy to use :- </span>
+            <p>
+              Tools don't matter - results do.I always build<br />
+              with the person using it in mind
+            </p>
+          </div>
+        </div>
+        <div class="what-i-do-img"></div>
+      </section>
+    </header>
+    <footer id="footer-contact-us">
+      <div class="footer-div">
+        <div class="footer-contact-us-div">
+          <div class="footer-contact-us-title">
+            <h2>MAKE <span>CONTACT</span></h2>
+            <div class="footer-contact-us-title-paragraph">
+              <p>Let's make a project together</p>
+            </div>
+            <div class="footer-contact-us-btn">
+              <button onclick="whatsapp()" class="buttonpro">
+                <span> Contact </span>
+              </button>
+            </div>
+          </div>
+          <div class="footer-contact-us-img"></div>
+        </div>
+        <div class="footer-links-div">
+          <div class="footer-links">
+            <ul>
+              <p>SERVICES</p>
+              <a>Web Development</a>
+              <a>Front-end Development</a>
+              <a>Creative Development</a>
+            </ul>
+          </div>
+          <div class="footer-quote">
+            <p>
+              ~उद्यमे नहि सिध्यन्ति कार्याणि न मनोरथैः।~
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scroll-navbar.js"></script>
+  </body>
+</html>

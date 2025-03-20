@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaini&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+#navbar {
+  height: 4rem;
+  width: 100%;
+  background: linear-gradient(35deg, #503c50, #933952);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 5rem;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "League Spartan", sans-serif;
+}
+.links a {
+  color: #000000;
+}
+.services {
+  color: #636260;
+  text-decoration: #000000 3px underline;
+}
+#services-main-div {
+  height: 43rem;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(80deg, #221c1e, #3f373f);
+}
+.services-main-div-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+#services-main-div:hover .services-main-div-title h2{
+  letter-spacing: 1rem;
+}
+.services-main-div-title h2 {
+  font-size: 50px;
+  font-weight: 700;
+  transition: all 0.4s ease-in-out;
+  border: none;
+}
+.services-main-about-services {
+  height: 15rem;
+  width: 100%;
+  font-family: "Libre Baskerville", serif;
+  margin-top: 2rem;
+}
+.services-main-about-services p {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #636260;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+.footer-main-div {
+  height: 22.4rem;
+  width: 100%;
+  background: linear-gradient(35deg, #503c50, #933952);
+}
+.footer-quote{
+    display: flex;
+    justify-content: center;
+}
+.footer-quote p {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Jaini", system-ui;
+  padding-top: 2rem;
+}
+.footer-links-div {
+  height: auto;
+  width: auto;
+  margin-left: 5rem;
+}
+.footer-links a {
+  font-weight: 700;
+  font-size: 20px;
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.footer-links p {
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
