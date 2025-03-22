@@ -23,6 +23,18 @@ html {
   justify-content: center;
   align-items: center;
 }
+.navbar-logo{
+  position: absolute;
+  left: 2%;
+  height: 3.5rem;
+  width: 3.5rem;
+  border:#000000 2px solid;
+  border-radius: 50%;
+  background: url("../../logo.jpeg") center;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
 .links {
   display: flex;
   gap: 5rem;

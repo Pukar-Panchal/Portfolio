@@ -9,6 +9,7 @@
   <body>
     <header id="header">
       <nav id="navbar">
+        <div class="navbar-logo"></div>
         <div class="navbar-links-container">
           <ul class="links">
             <li class="about">ABOUT</li>
@@ -61,5 +62,12 @@
             </ul>
           </div>
     </footer>
+    <script>
+      const logoRedirect = document.querySelector('.navbar-logo');
+
+      logoRedirect.addEventListener("click", () => {
+        window.location.href = "../scroll-navbar.html";
+      });
+    </script>
   </body>
 </html>

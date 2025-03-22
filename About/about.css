@@ -15,6 +15,7 @@ html {
   scrollbar-width: none;
 }
 #navbar {
+  position: relative;
   height: 4rem;
   width: 100%;
   background: linear-gradient(35deg, #503c50, #933952);
@@ -22,6 +23,20 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.navbar-logo {
+  position: absolute;
+  left: 2%;
+  height: 3.5rem;
+  width: 3.5rem;
+  border: #000000 2px solid;
+  border-radius: 50%;
+  background: url("../logo.jpeg") center;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
 .links {
   display: flex;
   gap: 5rem;
@@ -65,7 +80,7 @@ html {
 }
 .about-meterial-img {
   height: 30rem;
-  width: 25rem;
+  width: 30rem;
   border: none;
   border-radius: 5px;
   background: url("./about-background-removed.png") center;

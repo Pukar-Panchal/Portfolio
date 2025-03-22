@@ -221,6 +221,7 @@ body {
   height: 4rem;
   display: flex;
   justify-content: center;
+  align-content: center;
   background: linear-gradient(35deg, #503c50, #933952);
 }
 .links {
@@ -319,15 +320,19 @@ body {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
-/* .nav-logo h3 {
-  position: absolute;    it use for logo
+.navbar-logo{
+  position: absolute;
+  top: 5.6%;
   left: 2%;
-  color: white;
-  margin-bottom: 5rem;
-  margin-top: 1.5rem;
-  font-size: 25px;
-} */
+  height: 3.5rem;
+  width: 3.5rem;
+  border:#000000 2px solid;
+  border-radius: 50%;
+  background: url("./logo.jpeg") center;
+  background-size: cover;
+  border: none;
+}
+
 .live-image {
   position: relative;
   overflow: hidden;
